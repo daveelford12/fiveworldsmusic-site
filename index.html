@@ -3,25 +3,23 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>FiveWorlds Music</title>
+    <title>FiveWorldsMusic</title>
     <link rel="stylesheet" href="styles.css" />
   </head>
 
   <body>
     <!-- NAVIGATION -->
-    <nav class="topnav">
-      <a class="nav-logo" href="index.html">FiveWorldsMusic</a>
-      <div class="nav-links">
-        <a href="index.html">Home</a>
-        <a href="la-fanfarria-obscura.html">La Fanfarria Obscura</a>
-        <a href="low-country-soul.html">Low Country Soul</a>
-        <a href="mirevka.html">Mirevka</a>
-        <a href="still-as-the-pines.html">Still as the Pines</a>
-        <a href="the-sailors-refrain.html">The Sailor’s Refrain</a>
-      </div>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="la-fanfarria-obscura.html">La Fanfarria Obscura</a>
+      <a href="low-country-soul.html">Low Country Soul</a>
+      <a href="mirevka.html">Mirevka</a>
+      <a href="still-as-the-pines.html">Still as the Pines</a>
+      <a href="the-sailors-refrain.html">The Sailor's Refrain</a>
     </nav>
-    <!-- HEADER -->
-    <header class="index-header">
+
+    <!-- HEADER TEXT -->
+    <header class="centered" style="margin-top: 40px">
       <h1>FiveWorldsMusic</h1>
       <p class="subtitle">
         A vibrant gathering of independent artists crafting their own sonic
@@ -31,57 +29,74 @@
       </p>
     </header>
 
-    <section
+    <!-- HERO IMAGE FOR INDEX PAGE -->
+    <div
       class="index-hero"
       style="background-image: url('images/fiveworlds-music-hero.jpg')"
-    ></section>
+    ></div>
 
-    <!-- ARTIST GRID -->
-    <div class="artist-grid">
-      <a class="artist-card" href="la-fanfarria-obscura.html">
-        <img
-          class="artist-icon"
-          src="images/icons/la-fanfarria-obscura-icon.png"
-          alt="La Fanfarria Obscura"
-        />
-        <h2>La Fanfarria Obscura</h2>
-      </a>
+    <!-- MINI PLAYER -->
+    <div class="mini-player">
+      <img src="images/vinyl-icon.png" class="vinyl-icon" alt="vinyl icon" />
 
-      <a class="artist-card" href="low-country-soul.html">
-        <img
-          class="artist-icon"
-          src="images/icons/low-country-soul-icon.png"
-          alt="Low Country Soul"
-        />
-        <h2>Low Country Soul</h2>
-      </a>
+      <h3>Our Current Top Album Track</h3>
 
-      <a class="artist-card" href="mirevka.html">
-        <img
-          class="artist-icon"
-          src="images/icons/mirevka-icon.png"
-          alt="Mirevka"
+      <audio controls>
+        <source
+          src="audio/still-as-the-pines/i-couldnt-put-it-down.mp3"
+          type="audio/mpeg"
         />
-        <h2>Mirevka</h2>
-      </a>
-
-      <a class="artist-card" href="still-as-the-pines.html">
-        <img
-          class="artist-icon"
-          src="images/icons/still-as-the-pines-icon.png"
-          alt="Still as the Pines"
-        />
-        <h2>Still as the Pines</h2>
-      </a>
-
-      <a class="artist-card" href="the-sailors-refrain.html">
-        <img
-          class="artist-icon"
-          src="images/icons/the-sailors-refrain-icon.png"
-          alt="The Sailor’s Refrain"
-        />
-        <h2>The Sailor’s Refrain</h2>
-      </a>
+      </audio>
     </div>
+
+    <!-- ARTIST GRID SECTION -->
+    <section class="artist-section">
+      <div class="artist-grid">
+        <a class="artist-card" href="la-fanfarria-obscura.html">
+          <img
+            class="artist-icon"
+            src="images/icons/la-fanfarria-obscura-icon.png"
+            alt="La Fanfarria Obscura"
+          />
+          <p>La Fanfarria Obscura</p>
+        </a>
+
+        <a class="artist-card" href="low-country-soul.html">
+          <img
+            class="artist-icon"
+            src="images/icons/low-country-soul-icon.png"
+            alt="Low Country Soul"
+          />
+          <p>Low Country Soul</p>
+        </a>
+
+        <a class="artist-card" href="mirevka.html">
+          <img
+            class="artist-icon"
+            src="images/icons/mirevka-icon.png"
+            alt="Mirevka"
+          />
+          <p>Mirevka</p>
+        </a>
+
+        <a class="artist-card" href="still-as-the-pines.html">
+          <img
+            class="artist-icon"
+            src="images/icons/still-as-the-pines-icon.png"
+            alt="Still as the Pines"
+          />
+          <p>Still as the Pines</p>
+        </a>
+
+        <a class="artist-card" href="the-sailors-refrain.html">
+          <img
+            class="artist-icon"
+            src="images/icons/the-sailors-refrain-icon.png"
+            alt="The Sailor’s Refrain"
+          />
+          <p>The Sailor's Refrain</p>
+        </a>
+      </div>
+    </section>
   </body>
 </html>
