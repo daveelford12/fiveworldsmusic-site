@@ -112,7 +112,7 @@ nav a {
 
 .mini-player {
   position: absolute;
-  bottom: 250px; /* MOVE UPWARD */
+  bottom: 215px; /* MOVE UPWARD */
   right: 20px;
   background: rgba(0, 0, 0, 0.65);
   backdrop-filter: blur(8px);
