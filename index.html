@@ -66,6 +66,71 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="styles.css" />
+    <!-- HOMEPAGE STRUCTURED DATA -->
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "WebSite",
+        "name": "FiveWorldsMusic",
+        "url": "https://fiveworldsmusic.org",
+        "potentialAction": {
+          "@type": "SearchAction",
+          "target": "https://fiveworldsmusic.org/?s={search_term}",
+          "query-input": "required name=search_term"
+        }
+      }
+    </script>
+
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "Organization",
+        "name": "FiveWorldsMusic",
+        "url": "https://fiveworldsmusic.org",
+        "logo": "https://fiveworldsmusic.org/images/icons/fiveworldsmusic-logo.png",
+        "description": "FiveWorldsMusic is a creative collective housing five distinct artist projects, each exploring unique sonic worlds—from Appalachian folk and sea shanties to gypsy-punk cabaret, soulful gospel-blues, and cinematic pop.",
+        "sameAs": [
+          "https://open.spotify.com",
+          "https://www.youtube.com",
+          "https://www.facebook.com"
+        ]
+      }
+    </script>
+
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "ItemList",
+        "name": "FiveWorldsMusic Artist Roster",
+        "itemListElement": [
+          {
+            "@type": "MusicGroup",
+            "name": "La Fanfarria Obscura",
+            "url": "https://fiveworldsmusic.org/la-fanfarria-obscura.html"
+          },
+          {
+            "@type": "MusicGroup",
+            "name": "The Sailor’s Refrain",
+            "url": "https://fiveworldsmusic.org/the-sailors-refrain.html"
+          },
+          {
+            "@type": "MusicGroup",
+            "name": "Still as the Pines",
+            "url": "https://fiveworldsmusic.org/still-as-the-pines.html"
+          },
+          {
+            "@type": "MusicGroup",
+            "name": "Low Country Soul",
+            "url": "https://fiveworldsmusic.org/low-country-soul.html"
+          },
+          {
+            "@type": "MusicGroup",
+            "name": "Mirevka",
+            "url": "https://fiveworldsmusic.org/mirevka.html"
+          }
+        ]
+      }
+    </script>
   </head>
 
   <body>
