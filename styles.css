@@ -238,3 +238,23 @@ audio {
   width: 100%;
   margin-top: 10px;
 }
+/* ===================================================================
+   BUTTONS — For Spotify links on album cards
+   =================================================================== */
+
+.btn {
+  display: inline-block;
+  padding: 10px 20px;
+  margin-top: 12px;
+  background: #c299ff;
+  color: #000;
+  font-weight: bold;
+  border-radius: 8px;
+  text-decoration: none;
+  transition: 0.25s ease;
+}
+
+.btn:hover {
+  background: #e2c9ff;
+  transform: scale(1.05);
+}
